@@ -7,18 +7,22 @@
     },
     "#backgroundColor-block": {
         "valid": [
+            { "test": "ttml2-prstn-background-color-block" }
         ],
         "invalid": [
         ]
     },
     "#backgroundColor-inline": {
         "valid": [
+            { "test": "ttml2-prstn-background-color-inline-lrtb" },
+            { "test": "ttml2-prstn-background-color-inline-spaces-lrtb" }
         ],
         "invalid": [
         ]
     },
     "#backgroundColor-region": {
         "valid": [
+            { "test": "ttml2-prstn-background-color-region" }
         ],
         "invalid": [
         ]
@@ -67,6 +71,7 @@
     },
     "#color": {
         "valid": [
+            { "test": "ttml2-prstn-foreground-color" }
         ],
         "invalid": [
         ]
@@ -91,6 +96,8 @@
     },
     "#display": {
         "valid": [
+            { "test": "ttml2-prstn-display-1" },
+            { "test": "ttml2-prstn-display-2" }
         ],
         "invalid": [
         ]
@@ -373,6 +380,7 @@
     },
     "#padding": {
         "valid": [
+            { "test": "ttml2-prstn-padding-region" }
         ],
         "invalid": [
         ]
@@ -421,6 +429,7 @@
     },
     "#showBackground": {
         "valid": [
+            { "test": "ttml2-prstn-show-background" }
         ],
         "invalid": [
         ]
@@ -619,6 +628,8 @@
     },
     "#visibility": {
         "valid": [
+            { "test": "ttml2-prstn-visibility-1" },
+            { "test": "ttml2-prstn-visibility-2" }
         ],
         "invalid": [
         ]
