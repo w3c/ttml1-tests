@@ -1,6 +1,8 @@
 {
     "#animation": {
         "valid": [
+            { "test": "ttml2-prstn-animation" },
+            { "test": "ttml2-prstn-set-duration-implicit" }
         ],
         "invalid": [
         ]
@@ -29,12 +31,17 @@
     },
     "#backgroundColor": {
         "valid": [
+            { "test": "ttml2-prstn-background-color-block" },
+            { "test": "ttml2-prstn-background-color-inline-lrtb" },
+            { "test": "ttml2-prstn-background-color-inline-spaces-lrtb" },
+            { "test": "ttml2-prstn-background-color-region" }
         ],
         "invalid": [
         ]
     },
     "#bidi": {
         "valid": [
+            { "test": "ttml2-prstn-direction" }
         ],
         "invalid": [
         ]
@@ -71,13 +78,16 @@
     },
     "#color": {
         "valid": [
-            { "test": "ttml2-prstn-foreground-color" }
+            { "test": "ttml2-prstn-color" },
+            { "test": "ttml2-prstn-color-rgb-with-lwsp" }
         ],
         "invalid": [
         ]
     },
     "#content": {
         "valid": [
+            { "test": "ttml2-prstn-break" },
+            { "test": "ttml2-prstn-unknown-attribute" }
         ],
         "invalid": [
         ]
@@ -90,6 +100,7 @@
     },
     "#direction": {
         "valid": [
+            { "test": "ttml2-prstn-direction" }
         ],
         "invalid": [
         ]
@@ -104,18 +115,21 @@
     },
     "#display-block": {
         "valid": [
+            { "test": "ttml2-prstn-display-1" }
         ],
         "invalid": [
         ]
     },
     "#display-inline": {
         "valid": [
+            { "test": "ttml2-prstn-display-1" }
         ],
         "invalid": [
         ]
     },
     "#display-region": {
         "valid": [
+            { "test": "ttml2-prstn-display-2" }
         ],
         "invalid": [
         ]
@@ -170,12 +184,14 @@
     },
     "#fontFamily": {
         "valid": [
+            { "test": "ttml2-prstn-font-family" }
         ],
         "invalid": [
         ]
     },
     "#fontFamily-generic": {
         "valid": [
+            { "test": "ttml2-prstn-font-family" }
         ],
         "invalid": [
         ]
@@ -188,18 +204,26 @@
     },
     "#fontSize": {
         "valid": [
+            { "test": "ttml2-prstn-font-size-anamorphic-cell" },
+            { "test": "ttml2-prstn-font-size-anamorphic-em" },
+            { "test": "ttml2-prstn-font-size-inherited-em" },
+            { "test": "ttml2-prstn-font-size-region-em" }
         ],
         "invalid": [
         ]
     },
     "#fontSize-anamorphic": {
         "valid": [
+            { "test": "ttml2-prstn-font-size-anamorphic-cell" },
+            { "test": "ttml2-prstn-font-size-anamorphic-em" }
         ],
         "invalid": [
         ]
     },
     "#fontSize-isomorphic": {
         "valid": [
+            { "test": "ttml2-prstn-font-size-inherited-em" },
+            { "test": "ttml2-prstn-font-size-region-em" }
         ],
         "invalid": [
         ]
@@ -314,6 +338,7 @@
     },
     "#lineHeight": {
         "valid": [
+            { "test": "ttml2-prstn-lineHeight" }
         ],
         "invalid": [
         ]
@@ -417,6 +442,7 @@
     },
     "#presentation": {
         "valid": [
+            { "test": "ttml2-prstn-unknown-attribute" }
         ],
         "invalid": [
         ]
@@ -442,6 +468,7 @@
     },
     "#styling": {
         "valid": [
+            { "test": "ttml2-prstn-initial-non-inherited" }
         ],
         "invalid": [
         ]
@@ -466,6 +493,7 @@
     },
     "#styling-inline": {
         "valid": [
+            { "test": "ttml2-prstn-initial-non-inherited" }
         ],
         "invalid": [
         ]
@@ -508,6 +536,7 @@
     },
     "#textDecoration": {
         "valid": [
+            { "test": "ttml2-prstn-text-decoration" }
         ],
         "invalid": [
         ]
@@ -520,18 +549,21 @@
     },
     "#textDecoration-through": {
         "valid": [
+            { "test": "ttml2-prstn-text-decoration" }
         ],
         "invalid": [
         ]
     },
     "#textDecoration-under": {
         "valid": [
+            { "test": "ttml2-prstn-text-decoration" }
         ],
         "invalid": [
         ]
     },
     "#textOutline": {
         "valid": [
+            { "test": "ttml2-prstn-text-outline" }
         ],
         "invalid": [
         ]
@@ -544,6 +576,7 @@
     },
     "#textOutline-unblurred": {
         "valid": [
+            { "test": "ttml2-prstn-text-outline" }
         ],
         "invalid": [
         ]
@@ -610,24 +643,31 @@
     },
     "#timing": {
         "valid": [
+            { "test": "ttml2-prstn-break-duration-implicit" },
+            { "test": "ttml2-prstn-anonymous-span-duration-implicit" },
+            { "test": "ttml2-prstn-set-duration-implicit" },
+            { "test": "ttml2-prstn-span-duration-implicit" }
         ],
         "invalid": [
         ]
     },
     "#transformation": {
         "valid": [
+            { "test": "ttml2-prstn-unknown-attribute" }
         ],
         "invalid": [
         ]
     },
     "#unicodeBidi": {
         "valid": [
+            { "test": "ttml2-prstn-direction" }
         ],
         "invalid": [
         ]
     },
     "#visibility": {
         "valid": [
+            { "test": "ttml2-prstn-visibility" },
             { "test": "ttml2-prstn-visibility-1" },
             { "test": "ttml2-prstn-visibility-2" }
         ],
@@ -636,12 +676,14 @@
     },
     "#visibility-block": {
         "valid": [
+            { "test": "ttml2-prstn-visibility" }
         ],
         "invalid": [
         ]
     },
     "#visibility-inline": {
         "valid": [
+            { "test": "ttml2-prstn-visibility" }
         ],
         "invalid": [
         ]
@@ -690,6 +732,7 @@
     },
     "#zIndex": {
         "valid": [
+            { "test": "ttml2-prstn-z-index" }
         ],
         "invalid": [
         ]
