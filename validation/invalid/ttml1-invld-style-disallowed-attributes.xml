@@ -1,10 +1,10 @@
 <!-- invalid - disallowed style attribute - all contexts - should produce 15 errors -->
-<tt
-  xml:lang="en"
-  xmlns="http://www.w3.org/ns/ttml"
-  xmlns:tts="http://www.w3.org/ns/ttml#styling"
-  xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
-  tts:display="auto">
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="dfxp-transformation"
+    xmlns:tts="http://www.w3.org/ns/ttml#styling" tts:display="auto"
+    xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="15" ttva:expectedWarnings="0" ttva:model="ttml1"
+    ttva:noWarnOn="references-other-extension-namespace references-non-standard-extension">
   <head tts:display="auto">
     <ttm:title tts:display="auto"/>
     <ttm:desc tts:display="auto"/>

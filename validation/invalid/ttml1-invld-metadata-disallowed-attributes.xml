@@ -1,9 +1,9 @@
 <!-- invalid - disallowed metadata attribute - all contexts - should produce 18 errors -->
-<tt
-  xml:lang="en"
-  xmlns="http://www.w3.org/ns/ttml"
-  xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
-  ttm:role="x-tt">
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata" ttm:role="x-tt"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="dfxp-transformation"
+    xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="18" ttva:expectedWarnings="0" ttva:model="ttml1"
+    ttva:noWarnOn="references-other-extension-namespace references-non-standard-extension">
   <head ttm:role="x-head">
     <ttm:title ttm:role="x-title"/>
     <ttm:desc ttm:role="x-desc"/>

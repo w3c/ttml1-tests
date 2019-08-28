@@ -1,9 +1,8 @@
 <!-- invalid - disallowed parameter attributes - all contexts - should produce 18 errors -->
-<tt
-  xml:lang="en"
-  xmlns="http://www.w3.org/ns/ttml"
-  xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
-  xmlns:ttp="http://www.w3.org/ns/ttml#parameter">
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml"
+    xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
+    xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="dfxp-transformation"
+    xmlns:ttva="http://skynav.com/ns/ttv/annotations" ttva:warnOn="all" ttva:expectedErrors="18" ttva:expectedWarnings="0" ttva:model="ttml1">
   <head ttp:frameRate="30">
     <metadata ttp:frameRate="30"/>
     <ttm:title ttp:frameRate="30"/>
