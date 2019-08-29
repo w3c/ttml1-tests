@@ -14,13 +14,13 @@ A PASS result for an invalidity test occcurs if the validator rejects (reports a
 
 A validator is considered to **_strictly pass_** the test suite if it does not report a false negative for any validity test. A validator is considered to **_fully pass_** the test suite if it (1) strictly passes the test suite and (2) does not report a false positive for any invalidity test.
 
-A mapping from (designated) features to specific tests is found in `validation/tests.json`, which, for each new TTML1 feature designator, lists validity and invalidity tests (by name). We refer to this mapping file as the *validation test manifest*.
+A mapping from (designated) features to specific tests is found in `validation/tests.json`, which, for each TTML1 feature designator, lists validity and invalidity tests (by name). We refer to this mapping file as the *validation test manifest*.
 
 ## Presentation Test Suite
 
 The presentation test suite is found under the `presentation` directory, and is divided into two parts: (1) tests for presenting valid content and (2) tests for presenting invalid content.
 
-A mapping from (designated) features to specific tests is found in `presentation/tests.json`, which, for each new TTML1 feature designator, lists presentation tests (by name). We refer to this mapping file as the *presentation test manifest*.
+A mapping from (designated) features to specific tests is found in `presentation/tests.json`, which, for each TTML1 feature designator, lists presentation tests (by name). We refer to this mapping file as the *presentation test manifest*.
 
 For tests having primarily visual presentation semantics, each presentation test is associated with a like named ZIP archive with the suffix `.expected.zip`, which contains the output of a particular reference implementation (TTPE). Each such _reference archive_ contains a manifest file and one or more image frames represented in some image format. In the present form of the reference archives, the image format is `image/svg+xml`. These image frames should **not** be construed as normative, but merely serve as a possible reference image for performing (human visual) comparisons of expected output.
 
