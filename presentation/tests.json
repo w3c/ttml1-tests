@@ -645,6 +645,7 @@
         "valid": [
             { "test": "ttml2-prstn-break-duration-implicit" },
             { "test": "ttml2-prstn-anonymous-span-duration-implicit" },
+            { "test": "ttml2-prstn-region-timing" },
             { "test": "ttml2-prstn-set-duration-implicit" },
             { "test": "ttml2-prstn-span-duration-implicit" }
         ],
